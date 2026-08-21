@@ -1,0 +1,102 @@
+cv:
+  name: TODO Name
+  label: PhD Student
+  email: TODO@snu.ac.kr
+  location: Seoul, South Korea
+  image: ""
+  summary: "TODO: one-line summary, e.g. PhD student researching causal AI, uncertainty quantification, and building energy systems at Seoul National University."
+
+  social_networks:
+    - network: GitHub
+      username: TODO
+    - network: LinkedIn
+      username: TODO
+
+  address:
+    street: ""
+    city: Seoul
+    region: ""
+    postalCode: ""
+    countryCode: KR
+
+  sections:
+    Education:
+      - institution: Seoul National University
+        location: Seoul, South Korea
+        url: https://www.snu.ac.kr/
+        area: TODO (e.g. Architecture / Architectural Engineering)
+        studyType: PhD
+        start_date: TODO
+        end_date: Present
+        score: ""
+        courses: ""
+        highlights:
+          - "TODO: advisor, e.g. Advised by Prof. Park"
+
+      - institution: TODO (previous degree institution)
+        location: TODO
+        area: TODO
+        studyType: TODO (e.g. MS / BS)
+        start_date: TODO
+        end_date: TODO
+        highlights:
+          - TODO
+
+    Experience:
+      - company: TODO
+        position: TODO
+        location: TODO
+        start_date: TODO
+        end_date: TODO
+        summary: TODO
+        highlights:
+          - TODO
+
+    Awards:
+      - title: "TODO: e.g. Best Student Paper Award"
+        authors:
+          - "TODO: awarding body"
+        date: TODO
+        awarder: TODO
+        url: ""
+        summary: TODO
+
+    Publications:
+      - title: "TODO: paper title"
+        authors:
+          - TODO Name
+        publisher: TODO (journal/conference)
+        releaseDate: TODO
+        url: ""
+        summary: TODO
+
+    Skills:
+      - name: TODO (e.g. Research Methods)
+        level: TODO
+        icon: fa-solid fa-hashtag
+        keywords: "TODO, e.g. Causal Inference, Uncertainty Quantification, Building Performance Simulation"
+
+    Languages:
+      - name: Korean
+        summary: "Native speaker"
+
+      - name: English
+        summary: "TODO (e.g. Fluent)"
+
+    Interests:
+      - name: TODO
+        icon: fa-solid fa-tag
+        keywords: "TODO"
+
+    Projects:
+      - name: TODO
+        summary: TODO
+        highlights:
+          - TODO
+        start_date: TODO
+        end_date: TODO
+
+    References:
+      - name: "TODO: e.g. Prof. Park"
+        icon: fa-solid fa-laptop
+        reference: TODO

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Student, Seoul National University
 
@@ -28,3 +28,22 @@ latest_posts:
 ---
 
 I am a PhD student in the Building Simulation Lab at Seoul National University, advised by Prof. Cheol Soo Park. My research sits at the intersection of causal AI, uncertainty quantification, and building energy systems, with a focus on HVAC systems, occupant behavior modeling, and building performance simulation (BPS).
+
+### Education
+
+- **2023 -- 2027** Ph.D. in Architecture, Seoul National University, Seoul, South Korea &mdash; Major: building simulation; minor: optimization/control/occupant behavior. Supervisor: Prof. Cheol Soo Park
+- **2021 -- 2023** M.S. in Architecture, Seoul National University, Seoul, South Korea
+- **2017 -- 2021** B.S. in Architecture, Seoul National University, Seoul, South Korea
+
+### Experience
+
+- **2021 -- Present** Graduate Research Assistant, Dept. of Architecture and Architectural Engineering, Seoul National University
+- **2019** Intern, CHUNGYEON, South Korea
+
+### Honors and Awards
+
+- **2025** Best Paper Award, Architectural Institute of Korea (AIK) Conference
+- **2025.03 -- 08** BK21 Outstanding Research Talent Fellowship Award
+- **2024** Best Paper Award, Architectural Institute of Korea (AIK) Conference
+- **2023** Best Paper Award, Architectural Institute of Korea (AIK) Conference
+- **2021** First Place, SNU Architecture & Architectural Engineering Graduation Exhibition

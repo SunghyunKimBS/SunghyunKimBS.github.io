@@ -12,10 +12,10 @@ cv:
       username: sunghyun-kim-9b9b792a6
 
   address:
-    street: ""
+    street:
     city: Seoul
-    region: ""
-    postalCode: ""
+    region:
+    postalCode:
     countryCode: KR
 
   sections:

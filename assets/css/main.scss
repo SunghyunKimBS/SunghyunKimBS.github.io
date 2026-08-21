@@ -81,8 +81,10 @@
 }
 
 // CV date badges: plain gray text instead of a colored pill, matching the
-// Publications page's date style
-.cv .badge.danger-color-dark {
+// Publications page's date style.
+// Selector specificity must beat the theme's own
+// `.cv .card .list-group-item .badge { background-color: var(--global-theme-color) !important; }`
+.cv .card .list-group-item .badge.danger-color-dark {
   background-color: transparent !important;
   color: var(--global-text-color-light) !important;
   font-weight: 400 !important;

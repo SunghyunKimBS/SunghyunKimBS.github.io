@@ -79,3 +79,13 @@
 .contact-linkedin i {
   color: #0a66c2;
 }
+
+// CV date badges: plain gray text instead of a colored pill, matching the
+// Publications page's date style
+.cv .badge.danger-color-dark {
+  background-color: transparent !important;
+  color: var(--global-text-color-light) !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+  padding: 0 !important;
+}

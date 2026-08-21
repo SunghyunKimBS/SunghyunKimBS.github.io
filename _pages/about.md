@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in the Building Simulation Lab at Seoul National University, advised by Prof. Cheol Soo Park. My research sits at the intersection of causal AI, uncertainty quantification, and building energy systems, with a focus on HVAC systems, occupant behavior modeling, and building performance simulation (BPS).
+Sunghyun Kim is a PhD student in the Building Simulation Lab at Seoul National University, advised by Prof. Cheol Soo Park. His research sits at the intersection of causal AI, uncertainty quantification, and building energy systems, with a focus on HVAC systems, occupant behavior modeling, and building performance simulation (BPS).
 
 ### Education
 
@@ -42,6 +42,8 @@ I am a PhD student in the Building Simulation Lab at Seoul National University, 
 
 ### Honors and Awards
 
+- **2026** Best Student Paper Award, 7th Building Simulation Applications Conference (BSA), Bozen-Bolzano, Italy &mdash; [Certificate]({{ '/assets/pdf/bsa2026_best_student_paper_award.pdf' | relative_url }})
+- **2026** Best Paper Award, Architectural Institute of Korea (AIK) Conference
 - **2025** Best Paper Award, Architectural Institute of Korea (AIK) Conference
 - **2025.03 -- 08** BK21 Outstanding Research Talent Fellowship Award
 - **2024** Best Paper Award, Architectural Institute of Korea (AIK) Conference

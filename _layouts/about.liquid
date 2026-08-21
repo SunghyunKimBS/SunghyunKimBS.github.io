@@ -38,9 +38,9 @@ layout: default
         {% if page.social %}
           <div class="contact-links">
             {% if site.data.socials.email %}
-              <a class="contact-link contact-email" href="mailto:{{ site.data.socials.email }}">
-                <i class="fa-solid fa-envelope"></i><span>Email</span>
-              </a>
+              <span class="contact-link contact-email">
+                <i class="fa-solid fa-envelope"></i><span>{{ site.data.socials.email }}</span>
+              </span>
             {% endif %}
             {% if site.data.socials.scholar_userid %}
               <a class="contact-link contact-scholar" href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">

@@ -363,7 +363,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: "papers_*.bib"
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -377,8 +377,9 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: none
   group_order: descending
+  sort_by: none
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -408,6 +409,7 @@ filtered_bibtex_keywords:
     hal,
     html,
     inspirehep_id,
+    num,
     pdf,
     pmid,
     poster,

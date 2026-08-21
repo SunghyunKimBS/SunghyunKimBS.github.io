@@ -2,7 +2,6 @@
 layout: page
 title: Photos
 permalink: /photos/
-description: A collection of photos.
 nav: true
 nav_order: 3
 ---

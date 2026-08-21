@@ -35,6 +35,25 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        {% if page.social %}
+          <div class="contact-links">
+            {% if site.data.socials.email %}
+              <a class="contact-link contact-email" href="mailto:{{ site.data.socials.email }}">
+                <i class="fa-solid fa-envelope"></i><span>Email</span>
+              </a>
+            {% endif %}
+            {% if site.data.socials.scholar_userid %}
+              <a class="contact-link contact-scholar" href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">
+                <i class="ai ai-google-scholar"></i><span>Google Scholar</span>
+              </a>
+            {% endif %}
+            {% if site.data.socials.linkedin_username %}
+              <a class="contact-link contact-linkedin" href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}">
+                <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
@@ -59,18 +78,9 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

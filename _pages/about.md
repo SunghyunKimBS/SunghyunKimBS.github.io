@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Dept. of TODO (e.g. Architecture / Architectural Engineering)</p>
-    <p>Seoul National University</p>
-    <p>Seoul, South Korea</p>
+    <p>Building Simulation Lab, Rm 418, Bldg 39</p>
+    <p>Dept. of Architecture and Architectural Engineering</p>
+    <p>Seoul National University, Seoul, South Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,10 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-[TODO: write your bio here — 2-4 short paragraphs]
-
-I am a PhD student at Seoul National University, advised by Prof. TODO. My research sits at the intersection of causal AI, uncertainty quantification, and building energy systems, with a focus on HVAC systems, occupant behavior modeling, and building performance simulation (BPS).
-
-[TODO: add a sentence or two on your current focus, e.g. Hardware-in-the-Loop Simulation (HILS) for HVAC systems, and aleatoric/epistemic uncertainty decomposition in BPS models.]
-
-Replace `assets/img/prof_pic.jpg` with your own photo. Edit `_bibliography/papers.bib` to populate the [publications page](/publications/) automatically. Social links (email, Google Scholar, ORCID, GitHub, LinkedIn) are set in `_data/socials.yml`.
+I am a PhD student in the Building Simulation Lab at Seoul National University, advised by Prof. Cheol Soo Park. My research sits at the intersection of causal AI, uncertainty quantification, and building energy systems, with a focus on HVAC systems, occupant behavior modeling, and building performance simulation (BPS).

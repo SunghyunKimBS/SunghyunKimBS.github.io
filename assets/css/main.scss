@@ -33,6 +33,18 @@
 @use "typograms";
 
 // Local overrides
+
+// Site-wide accent color: dark green instead of the theme default purple
+:root {
+  --global-theme-color: #1b5e20 !important;
+  --global-hover-color: #2e7d32 !important;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #2e7d32 !important;
+  --global-hover-color: #43a047 !important;
+}
+
 .profile .more-info {
   font-family: inherit;
   font-size: 0.8rem;
@@ -78,6 +90,73 @@
 
 .contact-linkedin i {
   color: #0a66c2;
+}
+
+// Projects page: date + bilingual title/agency, laid out for readability
+.project-list {
+  margin-top: 1.5rem;
+}
+
+.project-item {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.project-item:first-child {
+  padding-top: 0;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
+
+.project-date {
+  flex: 0 0 150px;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding-top: 0.15rem;
+}
+
+.project-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-title-en {
+  font-weight: 600;
+}
+
+.project-title-kr {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  margin-top: 0.15rem;
+}
+
+.project-agency {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  margin-top: 0.4rem;
+}
+
+.project-note {
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 576px) {
+  .project-item {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .project-date {
+    flex: none;
+  }
 }
 
 // CV date badges: plain gray text instead of a colored pill, matching the
